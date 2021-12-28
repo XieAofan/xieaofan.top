@@ -1,0 +1,28 @@
+ul.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+ 
+ul.header li {
+    float: left;
+}
+ 
+ul.header li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+/*鼠标移动到选项上修改背景颜色 */
+ul.header li:hover {
+    border-bottom-style: solid;
+}
+div.header{
+    margin-right:5%;
+    margin-left:5%;
+}
